@@ -22,7 +22,7 @@ export default function App() {
 
 function Home() {
   return (
-    <div className='App'>
+    <div className='Home'>
       <a href='/about' className='kaleidoscope'></a>
     </div>
   );

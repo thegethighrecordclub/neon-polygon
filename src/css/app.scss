@@ -4,7 +4,7 @@ body {
   background-color:#DEE3ED;
   font-size: 2rem;
   font-family: Futura,Trebuchet MS,Arial,sans-serif;
-  overflow: hidden;
+  // overflow: hidden;
 }
 
 a, a:visited {
@@ -24,7 +24,7 @@ a:hover, a:after {
   }
 }
 
-.App {
+.Home {
   height: 100vh;
   max-height: 100vh;
   position: relative;
@@ -33,8 +33,11 @@ a:hover, a:after {
 
 .About {
   width: 60%;
+  max-width: 1600px;
   margin: auto;
   margin-top: 64px;
+  overflow: scroll;
+
   h1 {
     margin: 0;
   }

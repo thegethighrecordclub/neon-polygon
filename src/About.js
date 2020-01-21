@@ -9,10 +9,10 @@ function About() {
         <p>
           Neon Polygon is the music project of Seattle-based synthesist and
           producer <a href='http://davidhrivnak.com/'>David Hrivnak</a>. Fans of
-          The Chemical Brothers, Boards of Canada and Beck will love Neon
+          The Chemical Brothers, Boards of Canada, and Beck will appreciate Neon
           Polygon's warm retro electronic sound. Made with psychedelics and
           love, the music is ripe with vintage synths, acoustic elements, and a
-          full platter of auditory treats for those who listen in.
+          full platter of auditory treats for those who take a listen.
         </p>
         <p>
           Booking:{' '}
