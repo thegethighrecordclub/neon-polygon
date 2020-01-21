@@ -1,0 +1,62 @@
+body {
+  margin:0;
+  padding:0;
+  background-color:#DEE3ED;
+  font-size: 2rem;
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  overflow: hidden;
+}
+
+a, a:visited {
+  color: #FF5D03;
+  text-decoration: none;
+}
+
+a:hover, a:after {
+  color: #FF5D03;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+
+.App {
+  height: 100vh;
+  max-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.About {
+  width: 60%;
+  margin: auto;
+  margin-top: 64px;
+  h1 {
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: calc(100% - 64px);
+    margin: 32px;
+    margin-top: 40px;
+  }
+}
+
+.kaleidescope {
+  cursor: pointer;
+  z-index: 1;
+  height: 100vh;
+  display:block;
+  overflow: hidden;
+}
+
+.buzzbtns {
+  clear: both;
+  font-size: 1rem;
+  margin-top: 32px;
+  text-align: right;
+}
