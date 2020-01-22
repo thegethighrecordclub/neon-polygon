@@ -8926,14 +8926,6 @@ a:hover, a:after {
   }
 }
 
-.kaleidescope {
-  cursor: pointer;
-  z-index: 1;
-  height: 100vh;
-  display: block;
-  overflow: hidden;
-}
-
 .buzzbtns {
   clear: both;
   font-size: 1rem;

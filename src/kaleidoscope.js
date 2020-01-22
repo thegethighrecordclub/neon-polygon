@@ -31,14 +31,14 @@ $( document ).ready( function () {
     }
   }
 
-  var $kaleidescope = $( '.kaleidoscope' )
+  var $kaleidoscope = $( '.kaleidoscope' )
     .addClass( 'n' + n )
     .append( tiles );
 
-  var $image = $kaleidescope.find( '.image' );
+  var $image = $kaleidoscope.find( '.image' );
 
   var $fullscreen = $( '#fullscreen' );
-  var k = $kaleidescope[ 0 ];
+  var k = $kaleidoscope[ 0 ];
 
   // PARAMETER: *src* is the URL for an alternate image.
   var src = parameters.src;
@@ -55,7 +55,7 @@ $( document ).ready( function () {
   // PARAMETER: *opacity* sets opacity (0.0 -> 1.0).
   var opacity = parseFloat( parameters.opacity );
   if ( opacity ) {
-    $kaleidescope.css('opacity', 0).fadeTo( 3000, opacity );
+    $kaleidoscope.css('opacity', 0).fadeTo( 3000, opacity );
   }
 
 
@@ -63,7 +63,7 @@ $( document ).ready( function () {
   var mode = ~~parameters.mode || 2;
 
   // Project changes in cursor (x, y) onto the image background position.
-  $kaleidescope.mousemove( function ( e ) {
+  $kaleidoscope.mousemove( function ( e ) {
     x++;
     y++;
 
