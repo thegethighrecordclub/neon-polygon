@@ -8,22 +8,11 @@ export default function App() {
     <Router>
       <div>
         <Switch>
-          <Route path='/about'>
-            <About />
-          </Route>
           <Route path='/'>
-            <Home />
+            <About />
           </Route>
         </Switch>
       </div>
     </Router>
-  );
-}
-
-function Home() {
-  return (
-    <div className='Home'>
-      <a href='/about' className='kaleidoscope'></a>
-    </div>
   );
 }
